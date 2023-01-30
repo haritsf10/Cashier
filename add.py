@@ -25,6 +25,6 @@ try:
             self.transaction[self.nama_item] = new_item
             self.list_nama_item.append(nama_item)
 
-            print(self.transaction)
+            print(f'Item yang dibeli adalah: {self.transaction}')
 except:
     print("Barang yang diinput belum sesuai")
